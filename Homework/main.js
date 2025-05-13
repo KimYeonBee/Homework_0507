@@ -61,3 +61,7 @@ const customTag = {
         }
     }
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    customTag.render('container');
+});
